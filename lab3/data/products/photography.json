@@ -1,0 +1,53 @@
+{
+    "categoryId": 3,
+    "products": [
+        {
+            "id": 301,
+            "name": "Старе місто",
+            "shortname": "old-town",
+            "description": "Чорно-біла плівкова фотографія. Тираж 10 шт. Розмір 30×40 см, друк на бавовняному папері.",
+            "price": 4500,
+            "image": "https://picsum.photos/seed/photo1/200/200"
+        },
+        {
+            "id": 302,
+            "name": "Гори в тумані",
+            "shortname": "foggy-mountains",
+            "description": "Кольоровий пейзаж, тираж 15 шт. Фотопапір Fine Art. 40×60 см.",
+            "price": 5200,
+            "image": "https://picsum.photos/seed/photo2/200/200"
+        },
+        {
+            "id": 303,
+            "name": "Портрет старого",
+            "shortname": "old-man-portrait",
+            "description": "Художній портрет, чорно-біла плівка. Тираж 5 шт. 50×70 см.",
+            "price": 7800,
+            "image": "https://picsum.photos/seed/photo3/200/200"
+        },
+        {
+            "id": 304,
+            "name": "Нічне небо",
+            "shortname": "night-sky",
+            "description": "Астрофотографія Чумацького Шляху. Тираж 20 шт. 40×60 см.",
+            "price": 6100,
+            "image": "https://picsum.photos/seed/photo4/200/200"
+        },
+        {
+            "id": 305,
+            "name": "Вуличні відображення",
+            "shortname": "street-reflections",
+            "description": "Street-photography з відображеннями у калюжах. Тираж 12 шт. 30×40 см.",
+            "price": 4800,
+            "image": "https://picsum.photos/seed/photo5/200/200"
+        },
+        {
+            "id": 306,
+            "name": "Море на світанку",
+            "shortname": "sea-dawn",
+            "description": "Довга витримка, теплі тони. Тираж 8 шт. 50×70 см, друк на акрилі.",
+            "price": 8400,
+            "image": "https://picsum.photos/seed/photo6/200/200"
+        }
+    ]
+}

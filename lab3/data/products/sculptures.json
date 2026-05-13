@@ -1,0 +1,37 @@
+{
+    "categoryId": 2,
+    "products": [
+        {
+            "id": 201,
+            "name": "Танцівниця",
+            "shortname": "dancer",
+            "description": "Бронзова статуетка висотою 35 см. Динамічна поза, ручне литво.",
+            "price": 24500,
+            "image": "https://picsum.photos/seed/sculpture1/200/200"
+        },
+        {
+            "id": 202,
+            "name": "Мармуровий торс",
+            "shortname": "marble-torso",
+            "description": "Каррарський мармур, ручна обробка. Висота 45 см. Сучасна інтерпретація античного канону.",
+            "price": 56000,
+            "image": "https://picsum.photos/seed/sculpture2/200/200"
+        },
+        {
+            "id": 203,
+            "name": "Дерев’яний орел",
+            "shortname": "wooden-eagle",
+            "description": "Різьба з дуба. Розмах крил 50 см. Покриття натуральним маслом.",
+            "price": 8900,
+            "image": "https://picsum.photos/seed/sculpture3/200/200"
+        },
+        {
+            "id": 204,
+            "name": "Куля рівноваги",
+            "shortname": "balance-sphere",
+            "description": "Нержавіюча сталь. Абстрактна композиція. Діаметр 30 см.",
+            "price": 17200,
+            "image": "https://picsum.photos/seed/sculpture4/200/200"
+        }
+    ]
+}

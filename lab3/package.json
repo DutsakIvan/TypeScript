@@ -1,0 +1,14 @@
+{
+    "name": "artvault-lab3",
+    "version": "1.0.0",
+    "description": "Лабораторна робота №3 — TypeScript + Ajax-каталог ArtVault",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "serve": "npx http-server -p 8080 -c-1 ."
+    },
+    "devDependencies": {
+        "typescript": "5.4"
+    }
+}

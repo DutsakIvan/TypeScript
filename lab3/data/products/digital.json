@@ -1,0 +1,37 @@
+{
+    "categoryId": 4,
+    "products": [
+        {
+            "id": 401,
+            "name": "Cyber Dreams",
+            "shortname": "cyber-dreams",
+            "description": "Цифрова ілюстрація в стилі cyberpunk. Розмір 4K, формат PNG. Сертифікат автора.",
+            "price": 3200,
+            "image": "https://picsum.photos/seed/digital1/200/200"
+        },
+        {
+            "id": 402,
+            "name": "Glitch Portrait",
+            "shortname": "glitch-portrait",
+            "description": "Експериментальний цифровий портрет з glitch-ефектами. NFT, ERC-721.",
+            "price": 5800,
+            "image": "https://picsum.photos/seed/digital2/200/200"
+        },
+        {
+            "id": 403,
+            "name": "Geometric Soul",
+            "shortname": "geometric-soul",
+            "description": "Абстрактна композиція з геометричних форм та градієнтів. 8K, формат PNG.",
+            "price": 2900,
+            "image": "https://picsum.photos/seed/digital3/200/200"
+        },
+        {
+            "id": 404,
+            "name": "Neon Forest",
+            "shortname": "neon-forest",
+            "description": "Цифровий пейзаж — нічний ліс з неоновим підсвічуванням. 4K, тираж 50 шт.",
+            "price": 3600,
+            "image": "https://picsum.photos/seed/digital4/200/200"
+        }
+    ]
+}

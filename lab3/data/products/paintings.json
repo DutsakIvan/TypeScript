@@ -1,0 +1,45 @@
+{
+    "categoryId": 1,
+    "products": [
+        {
+            "id": 101,
+            "name": "Світанок у Карпатах",
+            "shortname": "carpathian-dawn",
+            "description": "Олія, полотно. Туман над гірськими хребтами, перші промені сонця. Розмір 60×80 см.",
+            "price": 12500,
+            "image": "https://picsum.photos/seed/painting1/200/200"
+        },
+        {
+            "id": 102,
+            "name": "Тиша моря",
+            "shortname": "sea-silence",
+            "description": "Акрил на полотні. Мінімалістична марина в синьо-сірих тонах. 50×70 см.",
+            "price": 9800,
+            "image": "https://picsum.photos/seed/painting2/200/200"
+        },
+        {
+            "id": 103,
+            "name": "Місто в дощі",
+            "shortname": "city-rain",
+            "description": "Олія, імпресіоністичний стиль. Львівські бруківки під дощем. 70×90 см.",
+            "price": 15400,
+            "image": "https://picsum.photos/seed/painting3/200/200"
+        },
+        {
+            "id": 104,
+            "name": "Абстракція №7",
+            "shortname": "abstract-7",
+            "description": "Змішана техніка. Геометричні форми та яскраві кольорові плями. 100×100 см.",
+            "price": 21000,
+            "image": "https://picsum.photos/seed/painting4/200/200"
+        },
+        {
+            "id": 105,
+            "name": "Портрет незнайомки",
+            "shortname": "unknown-portrait",
+            "description": "Олія, класична манера. Жіночий портрет у стилі Ренесансу. 40×50 см.",
+            "price": 18700,
+            "image": "https://picsum.photos/seed/painting5/200/200"
+        }
+    ]
+}

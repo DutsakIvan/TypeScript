@@ -1,0 +1,232 @@
+/* ===== ArtVault — фірмові стилі ===== */
+:root {
+    --av-bg: #0a0a0e;
+    --av-surface: #14141c;
+    --av-surface-2: #1c1c26;
+    --av-gold: #c9a84c;
+    --av-gold-soft: #e0c878;
+    --av-text: #f5f0e8;
+    --av-muted: #9b9aa3;
+    --av-border: #2a2a36;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: var(--av-bg);
+    color: var(--av-text);
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.av-navbar {
+    background: rgba(10, 10, 14, 0.92) !important;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--av-border);
+}
+.av-brand {
+    font-family: "Georgia", serif;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+.av-logo {
+    color: var(--av-text);
+    font-weight: 700;
+}
+.av-logo-accent {
+    color: var(--av-gold);
+    font-weight: 700;
+    font-style: italic;
+}
+.av-navbar .nav-link {
+    color: var(--av-text) !important;
+    margin: 0 0.5rem;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.av-navbar .nav-link:hover,
+.av-navbar .nav-link.active {
+    color: var(--av-gold) !important;
+}
+
+/* Hero / Home */
+.av-hero {
+    text-align: center;
+    padding: 4rem 1rem 2rem;
+    border-bottom: 1px solid var(--av-border);
+    margin-bottom: 2.5rem;
+}
+.av-hero h1 {
+    font-family: "Georgia", serif;
+    font-size: 3rem;
+    color: var(--av-gold);
+    margin-bottom: 0.5rem;
+}
+.av-hero p {
+    color: var(--av-muted);
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+/* Категорії */
+.av-section-title {
+    color: var(--av-gold);
+    font-family: "Georgia", serif;
+    margin: 2rem 0 1.5rem;
+    border-left: 3px solid var(--av-gold);
+    padding-left: 1rem;
+}
+
+.av-category-card {
+    background: var(--av-surface);
+    border: 1px solid var(--av-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.25s ease, border-color 0.25s ease,
+        box-shadow 0.25s ease;
+    height: 100%;
+}
+.av-category-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--av-gold);
+    box-shadow: 0 8px 24px rgba(201, 168, 76, 0.18);
+}
+.av-category-card h3 {
+    color: var(--av-gold-soft);
+    margin-bottom: 0.5rem;
+}
+.av-category-card .av-shortname {
+    color: var(--av-muted);
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+.av-category-card p {
+    color: var(--av-text);
+    font-size: 0.95rem;
+}
+
+/* Картки товарів */
+.av-product-card {
+    background: var(--av-surface);
+    border: 1px solid var(--av-border);
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s, border-color 0.25s;
+}
+.av-product-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--av-gold);
+}
+.av-product-img-wrap {
+    background: var(--av-surface-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    min-height: 220px;
+}
+.av-product-img-wrap img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 6px;
+}
+.av-product-body {
+    padding: 1rem 1.25rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.av-product-body h4 {
+    color: var(--av-gold-soft);
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+}
+.av-product-shortname {
+    color: var(--av-muted);
+    font-style: italic;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+.av-product-body .av-desc {
+    color: var(--av-text);
+    font-size: 0.92rem;
+    flex-grow: 1;
+    margin-bottom: 0.75rem;
+}
+.av-price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--av-gold);
+    border-top: 1px solid var(--av-border);
+    padding-top: 0.75rem;
+}
+
+/* Спеціальна категорія */
+.av-specials-badge {
+    background: linear-gradient(135deg, var(--av-gold), var(--av-gold-soft));
+    color: #1a1a1a;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+/* Хлібні крихти / кнопка назад */
+.av-back-btn {
+    background: transparent;
+    color: var(--av-gold);
+    border: 1px solid var(--av-gold);
+    border-radius: 6px;
+    padding: 0.4rem 1rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+.av-back-btn:hover {
+    background: var(--av-gold);
+    color: #1a1a1a;
+}
+
+/* Стан завантаження */
+.av-loader {
+    text-align: center;
+    color: var(--av-muted);
+    padding: 3rem;
+    font-style: italic;
+}
+.av-error {
+    background: #3a1a1a;
+    border: 1px solid #aa3a3a;
+    color: #ffb3b3;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Footer */
+.av-footer {
+    color: var(--av-muted);
+    border-top: 1px solid var(--av-border);
+    margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+    .av-hero h1 {
+        font-size: 2rem;
+    }
+}
